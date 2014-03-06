@@ -16,7 +16,7 @@
             <param name="ConversionPattern" value="[%d{HH:mm:ss}] %5p [%t] (%F:%L) - %m%n"/>
         </layout>
     </appender>
-    <logger name="bbejeck">
+    <logger name="com">
         <level value="debug"/>
         <appender-ref ref="file" />
     </logger>

@@ -1,4 +1,4 @@
-package bbejeck.servlet;
+package com.anmi.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -18,7 +18,6 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.web.servlet.DispatcherServlet;
 
 @WebServlet(urlPatterns = {"/async/*"}, asyncSupported = true, name = "async")
-
 public class AsyncDispatcherServlet extends DispatcherServlet {
 
     private ExecutorService exececutor;
